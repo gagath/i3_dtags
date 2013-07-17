@@ -12,7 +12,7 @@ This program requires the following tools to be installed on your system :
 
  * i3
  * sh
- * python 3
+ * cJSON
  * dmenu
 
 ## Configuration
