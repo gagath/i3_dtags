@@ -63,5 +63,7 @@ int main(int argc, const char *argv[])
     cJSON_Delete(node);
     cJSON_Delete(root);
 
+    free(content);
+
     return EXIT_SUCCESS;
 }
