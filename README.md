@@ -8,12 +8,16 @@ fonts.
 
 ## Requirements
 
-This program requires the following tools to be installed on your system :
+This program requires the following tools to be installed on your system in
+order to work :
 
  * i3
- * sh
- * cJSON
  * dmenu
+ * sh
+
+Moreover, you will need to install the following library :
+
+ * cJSON
 
 ## Configuration
 
