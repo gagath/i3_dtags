@@ -15,7 +15,7 @@
 
 #define BUF_SIZE 2048
 
-int main(int argc, const char *argv[])
+int main(void)
 {
     char buffer[BUF_SIZE];
     size_t contentSize = 1;
