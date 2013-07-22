@@ -19,6 +19,15 @@ Moreover, you will need to install the following C library :
 
  * cJSON
 
+## Installation
+
+Simply run the following commands :
+
+```
+$ make
+$ sudo make install
+```
+
 ## Configuration
 
 You can had the following lines to your i3 configuration file in order to
@@ -26,7 +35,7 @@ use the script, use tags navigation and renaming them :
 
 ```
 # Show all tags and allow user to select one though dmenu
-bindsym $mod+w exec ~/path/to/dtags.sh '$font'
+bindsym $mod+w exec i3-dtags.sh '$font'
 
 # Renames a tag (optional)
 bindsym $mod+x exec i3-input -F 'rename workspace to %s' -P 'New name: ' -f '$font'

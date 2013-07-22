@@ -1,12 +1,17 @@
 CFLAGS=-W -Wall -Wextra -std=c89 -pedantic -ansi -O2
 EXEC=i3-dtags
+SCRIPT=i3-dtags.sh
 
-.PHONY: clean
+.PHONY: clean, install
 
 all: $(EXEC)
 
-$(EXEC): dtags.c
-	$(CC) -lcjson $(CFLAGS) -o $(EXEC) dtags.c
+$(EXEC): i3-dtags.c
+	$(CC) -lcjson $(CFLAGS) -o $(EXEC) i3-dtags.c
+
+install: $(EXEC)
+	cp $(EXEC) /usr/local/bin/
+	cp $(SCRIPT) /usr/local/bin/
 
 clean:
-	rm dtags
+	rm i3-dtags
