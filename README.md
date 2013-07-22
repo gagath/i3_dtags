@@ -28,6 +28,13 @@ use the script, use tags navigation and renaming them :
 # Show all tags and allow user to select one though dmenu
 bindsym $mod+w exec ~/path/to/dtags.sh '$font'
 
-# Renames a tag
+# Renames a tag (optional)
 bindsym $mod+x exec i3-input -F 'rename workspace to %s' -P 'New name: ' -f '$font'
 ```
+
+## How-to
+
+Simply call the `dtags.sh` script by pressing your defined shortcut and then
+type the first letters of the tag you want to go on, then tab and enter.
+Moreover you can also type an unexisting name and a new tag with this name
+will be automatically created by i3.
