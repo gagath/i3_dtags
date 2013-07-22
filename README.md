@@ -1,4 +1,4 @@
-# i3-dynamic-tags
+# i3-dtags
 
 Tool for using dynamic tags with i3 window manager.
 
@@ -15,7 +15,7 @@ order to work :
  * dmenu
  * sh
 
-Moreover, you will need to install the following library :
+Moreover, you will need to install the following C library :
 
  * cJSON
 
