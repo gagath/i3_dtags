@@ -52,6 +52,8 @@ int main(void)
 
     /* Parsing JSON data */
 
+    /* TODO: Handle parse error */
+
     root = cJSON_Parse(content);
     node = root->child;
 

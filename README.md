@@ -47,3 +47,14 @@ Simply call the `dtags.sh` script by pressing your defined shortcut and then
 type the first letters of the tag you want to go on, then tab and enter.
 Moreover you can also type an unexisting name and a new tag with this name
 will be automatically created by i3.
+
+## Why using C?
+
+First prototype was made out of Python code, but it was too slow to run on my
+computer so I decided to rewrite some parts in C. The next step would be to
+avoid JSON and directly use the i3 API.
+
+## Copyright
+
+i3-dtags is brought to you under the WTFPL licence. For further informations
+read the LICENCE file.
