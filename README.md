@@ -8,6 +8,10 @@ A call to this tool will display a list of i3 workspaces in a dmenu, allowing
 you to switch to a named workspace easily. Moreover, this script handles custom
 fonts.
 
+## Screenshot
+
+![i3-dtags at work](http://microjoe.eu/media/projects/i3-dtags/screenshot.png)
+
 ## Requirements
 
 This program requires the following tools to be installed on your system in
