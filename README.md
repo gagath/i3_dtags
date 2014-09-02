@@ -17,7 +17,7 @@ order to work :
 
 Moreover, you will need to install the following C library :
 
- * cJSON
+ * cJSON (you can install it from AUR with name `cjson-git`)
 
 ## Installation
 
@@ -56,5 +56,5 @@ avoid JSON and directly use the i3 API.
 
 ## Copyright
 
-i3-dtags is brought to you under the WTFPL licence. For further informations
-read the LICENCE file.
+i3-dtags is brought to you under WTFPL. For further informations read the
+provided COPYING file.
