@@ -55,9 +55,18 @@ will be automatically created by i3.
 
 ## Why using C?
 
-First prototype was made out of Python code, but it was too slow to run on my
-computer so I decided to rewrite some parts in C. The next step would be to
-avoid JSON and directly use the i3 API.
+And why mixing it with shell script?
+
+First prototype was made out of Python code, but JSON parsing was too slow to
+run on my computer so I decided to rewrite some parts in C using cJSON.
+
+Meanwhile, I tried to rewrite the whole program in C using i3's IPC (with UNIX
+local socket) and no noticeable performance improvement was observed so I
+decided to stick with this mix of C and shell script.
+
+**Hint :** do not try to rewrite this whole program in C, dealing with C
+sockets, even if there are UNIX-local, is kinda hard and you will not get more
+performance than piping the provided binaries from i3wm using bash.
 
 ## Copyright
 
