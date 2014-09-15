@@ -19,7 +19,7 @@ order to work:
 
  * i3
  * dmenu
- * sh
+ * bash
 
 Moreover, you will need to install the following C library:
 
