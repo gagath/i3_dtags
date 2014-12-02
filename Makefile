@@ -1,5 +1,5 @@
 EXEC=i3-dtags
-SCRIPT=i3-dtags.sh i3-dtags-moveto.sh
+SCRIPTS=i3-dtags.sh i3-dtags-moveto.sh
 
 INSTALL_DIR=/usr/local/bin/
 
@@ -15,7 +15,7 @@ $(EXEC): i3-dtags.c
 
 install: $(EXEC)
 	cp $(EXEC) $(INSTALL_DIR)
-	cp $(SCRIPT) $(INSTALL_DIR)
+	cp $(SCRIPTS) $(INSTALL_DIR)
 
 clean:
 	rm $(EXEC)
