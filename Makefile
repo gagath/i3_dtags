@@ -1,5 +1,5 @@
 EXEC=i3-dtags
-SCRIPT=i3-dtags.sh
+SCRIPT=i3-dtags.sh i3-dtags-moveto.sh
 
 INSTALL_DIR=/usr/local/bin/
 

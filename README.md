@@ -43,6 +43,9 @@ use the script, use tags navigation and renaming them:
     # Show all tags and allow user to select one though dmenu
     bindsym $mod+w exec i3-dtags.sh -fn '$font'
 
+    # Show tags, and move the current window to the one selected using dmenu
+    bindsym $mod+w exec i3-dtags-moveto.sh -fn '$font'
+
     # Renames a tag (optional)
     bindsym $mod+x exec i3-input -F 'rename workspace to %s' -P 'New name: ' -f '$font'
 
