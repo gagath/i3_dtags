@@ -29,17 +29,14 @@ Moreover, you will need to install the following C library:
 
 Simply run the following commands:
 
-```
-$ make
-$ sudo make install
-```
+    $ make
+    $ sudo make install
 
 ## Configuration
 
 You can had the following lines to your i3 configuration file in order to
 use the script, use tags navigation and renaming them:
 
-    :::bash
     # Show all tags and allow user to select one though dmenu
     bindsym $mod+w exec i3-dtags.sh -fn '$font'
 
