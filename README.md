@@ -10,7 +10,7 @@ fonts.
 
 ## Screenshot
 
-![i3-dtags at work](http://microjoe.eu/media/projects/i3-dtags/screenshot.png)
+![i3-dtags at work](http://microjoe.org/media/projects/i3-dtags/screenshot.png)
 
 ## Requirements
 
